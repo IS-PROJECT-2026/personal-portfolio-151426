@@ -119,3 +119,46 @@ ul {
 .footer-links a:focus-visible {
   color: var(--color-accent);
 }
+
+.hero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+}
+
+.hero-eyebrow {
+  font-size: var(--size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+  margin-bottom: var(--space-xs);
+}
+
+.hero-title {
+  font-size: var(--size-2xl);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: var(--space-sm);
+}
+
+.hero-lead {
+  max-width: 55ch;
+  font-size: var(--size-lg);
+  color: var(--color-muted);
+  margin-bottom: var(--space-md);
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-accent);
+  color: #ffffff;
+  border-radius: var(--radius);
+  font-size: var(--size-sm);
+  font-weight: 600;
+}
+
+.hero-cta:hover,
+.hero-cta:focus-visible {
+  opacity: 0.9;
+}
