@@ -247,3 +247,35 @@ ul {
 .project-link:focus-visible {
   text-decoration: underline;
 }
+
+.skills {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-md);
+}
+
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-md);
+}
+
+.skill-group-title {
+  font-size: var(--size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.skill-list {
+  display: grid;
+  gap: var(--space-xs);
+  font-size: var(--size-sm);
+  color: var(--color-muted);
+}
+
+.skill-list li {
+  padding-left: var(--space-sm);
+  border-left: 2px solid var(--color-border);
+}
