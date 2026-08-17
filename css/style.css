@@ -373,3 +373,28 @@ ul {
     align-items: flex-start;
   }
 }
+
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+
+  .site-nav ul {
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+
+  .hero {
+    padding: var(--space-md);
+  }
+
+  .section-title {
+    font-size: var(--size-lg);
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
