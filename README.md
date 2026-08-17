@@ -12,6 +12,9 @@ a reviewed pull request.
 
 https://is-project-2026.github.io/personal-portfolio-151426/
 
+Deployed from the `main` branch root via GitHub Pages. The site is static with
+no build step, so every merge to `main` republishes automatically.
+
 ## Features
 
 - Sticky navigation anchoring to each content section
