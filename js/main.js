@@ -43,3 +43,25 @@ fields.forEach(function (field) {
     validateField(field);
   });
 });
+
+const themeToggle = document.getElementById('theme-toggle');
+const root = document.documentElement;
+
+function applyTheme(isDark) {
+  if (isDark) {
+    root.setAttribute('data-theme', 'dark');
+    themeToggle.textContent = 'Light mode';
+  } else {
+    root.removeAttribute('data-theme');
+    themeToggle.textContent = 'Dark mode';
+  }
+  themeToggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+}
+
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+applyTheme(prefersDark);
+
+themeToggle.addEventListener('click', function () {
+  const isDark = root.getAttribute('data-theme') === 'dark';
+  applyTheme(!isDark);
+});
