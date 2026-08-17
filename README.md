@@ -29,3 +29,25 @@ https://is-project-2026.github.io/personal-portfolio-151426/
 | Behaviour | Vanilla JavaScript, no framework or build step |
 | Hosting | GitHub Pages served from the `main` branch |
 | Workflow | Git, GitHub Issues, Milestones, Projects, and Pull Requests |
+
+## Project structure
+.
+├── index.html
+├── css/
+│ └── style.css
+├── js/
+│ └── main.js
+└── evidence/
+
+## Running locally
+
+```bash
+git clone https://github.com/IS-PROJECT-2026/personal-portfolio-151426.git
+cd personal-portfolio-151426
+```
+
+Open `index.html` in a browser. There is no build step and no dependencies.
+
+## Repository conventions
+
+Commits follow the Conventional Commits specification. Branches are named `type/issue-number-description`, and every pull request references the issue it resolves.
