@@ -4,7 +4,7 @@
 ## 1. Student Details
 - **Full Name:** Sewe
 - **GitHub Username:** KeittahSewe
-- **Email:** keittahoyunga@strathmore.edu
+- **Email:** keittah.oyunga@strathmore.edu
 ---
 
 ## 2. Deployed Project Link
