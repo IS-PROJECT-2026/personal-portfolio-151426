@@ -65,3 +65,5 @@ themeToggle.addEventListener('click', function () {
   const isDark = root.getAttribute('data-theme') === 'dark';
   applyTheme(!isDark);
 });
+
+console.info('Portfolio scripts loaded.');
