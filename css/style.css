@@ -183,3 +183,15 @@ ul {
   gap: var(--space-md);
   color: var(--color-muted);
 }
+
+.projects {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-md);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-md);
+}
